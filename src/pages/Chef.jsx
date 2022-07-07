@@ -12,17 +12,17 @@ function Chef() {
         
           <div className="home-buttons">
             
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/products" style={{ textDecoration: "none" }}>
             <Button variant="contained">See my Products</Button>
         </Link>
         <br></br>
         <br></br>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/browse" style={{ textDecoration: "none" }}>
             <Button variant="contained">Browse Recipes</Button>
         </Link>
         <br></br>
         <br></br>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/groceryrun" style={{ textDecoration: "none" }}>
             <Button variant="contained">Grocery Runs</Button>
         </Link>
 

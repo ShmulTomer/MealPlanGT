@@ -12,17 +12,17 @@ function Contributor() {
         
           <div className="home-buttons">
             
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/writerecipe" style={{ textDecoration: "none" }}>
             <Button variant="contained">Write Recipe</Button>
         </Link>
         <br></br>
         <br></br>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/browse" style={{ textDecoration: "none" }}>
             <Button variant="contained">Browse Recipes</Button>
         </Link>
         <br></br>
         <br></br>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/myrecipes" style={{ textDecoration: "none" }}>
             <Button variant="contained">See my Recipes</Button>
         </Link>
 
