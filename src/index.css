@@ -1,4 +1,3 @@
-
 body {
   --custom-font-family: "Ubuntu", sans-serif;
   --custom-bg-color: #282c34;
@@ -18,6 +17,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
