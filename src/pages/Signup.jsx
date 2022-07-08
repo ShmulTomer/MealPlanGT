@@ -30,11 +30,11 @@ function Signin() {
         />
         <input className="Input"
           placeholder="name"
-          onChange={e => setName(e.target.name)}
+          onChange={e => setName(e.target.value)}
         />
         <input className="Input"
           placeholder="address"
-          onChange={e => setAddress(e.target.name)}
+          onChange={e => setAddress(e.target.value)}
         />
         <button className="Button" onClick={async() => {
           if (!isValidEmail(email)) {
