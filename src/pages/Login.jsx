@@ -6,7 +6,7 @@ import { TextField } from "@mui/material";
 function Login() {
   return (
     <div className="App">
-      <div className="Login-header">Welcome to Food Bites</div>
+      <div className="Login-header">Welcome to Munches</div>
       <div className="App-text">
         <br></br>
         <div>
